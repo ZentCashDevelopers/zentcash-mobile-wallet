@@ -102,7 +102,7 @@ const Config = new function() {
         new MixinLimit(150000, 3, 3, 3),
         
         /* At height of 150000 */
-        new MixinLimit(2600000, 1, 3, 1),        
+        new MixinLimit(2600000, 1, 3, 3),        
     ], 3 /* Default mixin */);
 
     /**
